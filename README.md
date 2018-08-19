@@ -2,7 +2,7 @@
 
 This is my personal git workflow; it might not be a good one; please help to improve it
 
-## What is origin, upstream?
+## 0. What is origin, upstream?
 
 **repo** is from repository, in git world it means the place we keep code.
 
@@ -12,7 +12,7 @@ This is my personal git workflow; it might not be a good one; please help to imp
 
 **local**, or **local repo** is the way we call the repo (folder) on our working folder's local machine.
 
-## Fork a project
+## 1. Fork a project
 when we would like to contribute on a project we start by forking it
 
 <p align="center">
@@ -25,7 +25,7 @@ after fork the project, you will have a new repo in your github. this repo will 
   <img width="800" src="https://raw.githubusercontent.com/VaultExpress/git-workflow/master/img/2-git-workflow.png">
 </p>
 
-## Prepare local repo
+## 2. Prepare local repo
 On your machine, you need to prepare your local repo for further work
 ```
 git clone https://github.com/<YOUR NAME HERE>/vault-express.git
@@ -41,7 +41,7 @@ it should displays similar to this
   <img width="800" src="https://raw.githubusercontent.com/VaultExpress/git-workflow/master/img/3-git-workflow.png">
 </p>
 
-## Create a working branch
+## 3. Create a working branch
 On your machine, in your local repo directory. When we start to edit something, we start with creating a new branch
 ```
 git branch work
