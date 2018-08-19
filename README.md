@@ -77,3 +77,15 @@ git commit -m "YOUR COMMENT MESSAGE"
 From this point, your **work** branch will have your changes **BUT** your **master** branch still have old code before changes
 
 if you checkout **master** branch by **git checkout master**, you will see your old code in your local repo directory, you can move back and forth between branch anytime you like
+
+## 5. Push to your forked repo
+After you have done, editing your files and also commit it into **local repo**. It is time to save the changed code back to your github repo ( **origin** ). Make sure you are on **work** branch (find current branch by **git branch**, notice the star mark), **git checkout work** to move to **work** branch
+```
+git push origin work
+```
+This will save your changed code to github **origin** repo and also create **work** branch as well
+
+**Notice** the new branch on your github **origin** repo
+<p align="center">
+  <img width="800" src="https://raw.githubusercontent.com/VaultExpress/git-workflow/master/img/4-git-workflow.png">
+</p>
