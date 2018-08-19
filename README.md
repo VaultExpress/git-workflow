@@ -89,3 +89,20 @@ This will save your changed code to github **origin** repo and also create **wor
 <p align="center">
   <img width="800" src="https://raw.githubusercontent.com/VaultExpress/git-workflow/master/img/4-git-workflow.png">
 </p>
+
+## 6. Create PR (Pull Request)
+Now it is time to apply your changes to the main project (**upstream**). you need to submit a PR to project maintainer who will review your changed files and apply changes to the **upstream** repo
+
+To create the PR click on button 'Compare & pull request' as shown below
+<p align="center">
+  <img width="800" src="https://raw.githubusercontent.com/VaultExpress/git-workflow/master/img/5-git-workflow.png">
+</p>
+
+You fill out the PR
+<p align="center">
+  <img width="800" src="https://raw.githubusercontent.com/VaultExpress/git-workflow/master/img/6-git-workflow.png">
+</p>
+
+**Notice** the PR title as example **Fix #27 Send confirmation email for signing up**
+We will use word 'Fix' following by issue number with # prefix and title description as same as the issue title, this will automatically match your PR to the issue by github. and i found that many projects use it this way, then just try to do the same way.
+
