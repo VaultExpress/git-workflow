@@ -12,3 +12,8 @@ This is my personal git workflow; it might not be a good one; please help to imp
 
 **local**, or **local repo** is the way we call the repo (folder) on our working folder's local machine.
 
+ ## Fork a project
+ when we would like to contribute on a project we start by fork it
+ 
+[[https://github.com/junyada100/git-workflow/blob/master/img/1-git-workflow.png|alt=fork-a-project]]
+
