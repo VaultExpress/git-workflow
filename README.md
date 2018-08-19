@@ -42,7 +42,7 @@ it should displays similar to this
 </p>
 
 ## 3. Create a working branch
-On your machine, in your local repo directory. When we start to edit something, we start with creating a new branch
+On your machine, in your local repo directory. When we start to work/edit on something, we start by creating a new branch
 ```
 git branch work
 ```
@@ -64,3 +64,16 @@ There is a shortcut for above command by
 git checkout -b work
 ```
 it will create **work** branch and also move you to that specific branch
+
+## 4. Editing and Commit the changes
+Make sure you are on your **work** branch by issuing **git checkout work**
+From here, you may create/edit/delete as you like. Once you have done, you can save your changes to **local repo**, **work** branch by
+```
+git add .
+git commit -m "YOUR COMMENT MESSAGE"
+```
+**notice** that with old git version, we might need to use **git add . --all**, if you delete some files
+
+From this point, your **work** branch will have your changes **BUT** your **master** branch still have old code before changes
+
+if you checkout **master** branch by **git checkout master**, you will see your old code in your local repo directory, you can move back and forth between branch anytime you like
