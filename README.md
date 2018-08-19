@@ -98,11 +98,16 @@ To create the PR click on button 'Compare & pull request' as shown below
   <img width="800" src="https://raw.githubusercontent.com/VaultExpress/git-workflow/master/img/5-git-workflow.png">
 </p>
 
-You fill out the PR
+You fill out the PR and then click 'Create pull request'
 <p align="center">
   <img width="800" src="https://raw.githubusercontent.com/VaultExpress/git-workflow/master/img/6-git-workflow.png">
 </p>
 
-**Notice** the PR title as example **Fix #27 Send confirmation email for signing up**
-We will use word 'Fix' following by issue number with # prefix and title description as same as the issue title, this will automatically match your PR to the issue by github. and i found that many projects use it this way, then just try to do the same way.
+**Notice** the PR title as example **Fix #27 Send confirmation email for signing up**.
+We use word 'Fix' following by issue number with # prefix and title description as same as the issue title, this will automatically match your PR to the issue by github. and i found that many projects use it this way, then just try to do the same way.
+
+## 7. Waiting for maintainers to merge your PR
+This step will be done by **upstream** project maintainers. He/She might ask you to update something and submit again, because it might impact to other parts of the project.
+
+_*I will update on this section later_
 
