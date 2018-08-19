@@ -151,6 +151,6 @@ git branch -D work
 
 To delete branch from github origin repo ( fork repo ) 
 ```
- git push --delete origin work
+git push --delete origin work
 ```
  
