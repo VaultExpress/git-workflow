@@ -24,3 +24,19 @@ after fork the project, you will have a new repo in your github. this repo will 
 <p align="center">
   <img width="800" src="https://raw.githubusercontent.com/VaultExpress/git-workflow/master/img/2-git-workflow.png">
 </p>
+
+## Prepare local repo
+On your machine, you need to prepare your local repo for further work
+```
+git clone https://github.com/<YOUR NAME HERE>/vault-express.git
+cd vault-express
+git remote add upstream https://github.com/VaultExpress/vault-express.git
+```
+check it by
+```
+git remote -v
+```
+it should displays similar to this
+<p align="center">
+  <img width="800" src="https://raw.githubusercontent.com/VaultExpress/git-workflow/master/img/3-git-workflow.png">
+</p>
