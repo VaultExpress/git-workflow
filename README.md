@@ -40,3 +40,27 @@ it should displays similar to this
 <p align="center">
   <img width="800" src="https://raw.githubusercontent.com/VaultExpress/git-workflow/master/img/3-git-workflow.png">
 </p>
+
+## Create a working branch
+On your machine, in your local repo directory. When we start to edit something, we start with creating a new branch
+```
+git branch work
+```
+This will create a new branch name 'work'. You may use any words as you like
+and then we check the branch in local repo by
+```
+git branch
+```
+You will notice ***master** and **work** on your terminal
+the * mark means you are on that branch, in this case it means you are on master branch
+then we need to change to our new **work** branch by enter
+```
+git checkout work
+```
+check with **git branch** again, you will see the star mark move to ***work**
+
+There is a shortcut for above command by
+```
+git checkout -b work
+```
+it will create **work** branch and also move you to that specific branch
