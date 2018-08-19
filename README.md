@@ -13,8 +13,8 @@ This is my personal git workflow; it might not be a good one; please help to imp
 **local**, or **local repo** is the way we call the repo (folder) on our working folder's local machine.
 
 ## Fork a project
- when we would like to contribute on a project we start by fork it
+when we would like to contribute on a project we start by forking it
 
 <p align="center">
-  <img width="800" src="https://raw.githubusercontent.com/junyada100/git-workflow/master/img/1-git-workflow.png">
+  <img width="800" src="https://raw.githubusercontent.com/VaultExpress/git-workflow/master/img/1-git-workflow.png">
 </p>
