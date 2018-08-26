@@ -106,10 +106,19 @@ You fill out the PR and then click 'Create pull request'
 **Notice** the PR title as example **Fix #27 Send confirmation email for signing up**.
 We use word 'Fix' following by issue number with # prefix and title description as same as the issue title, this will automatically match your PR to the issue by github. and i found that many projects use it this way, then just try to do the same way.
 
-## 7. Waiting for maintainers to merge your PR
+## 7. Maintainers reviews and merge your Pull Request
 This step will be done by **upstream** project maintainers. He/She might ask you to update something and submit again, because it might impact to other parts of the project.
 
-_*I will update on this section later_
+__*I will update on this section later__
+
+Maintainer will get a copy of PR to his/her local repo for reviewing by "git fetch upstream pull/__*id*__/head:__*branch*__".
+
+For example
+```
+git fetch upstream pull/65/head:review
+```
+
+__*I will update on this section later__
 
 ## 8. Sync your master branch
 
