@@ -109,16 +109,16 @@ We use word 'Fix' following by issue number with # prefix and title description 
 ## 7. Maintainers reviews and merge your Pull Request
 This step will be done by **upstream** project maintainers. He/She might ask you to update something and submit again, because it might impact to other parts of the project.
 
-_*I will update on this section later_
+__*I will update on this section later__
 
-Maintainer will get a copy of PR to his/her local repo for reviewing by git fetch upstream pull/<id>/head:<branch>.
+Maintainer will get a copy of PR to his/her local repo for reviewing by "git fetch upstream pull/__*id*__/head:__*branch*__".
 
 For example
 ```
 git fetch upstream pull/65/head:review
 ```
 
-_*I will update on this section later_
+__*I will update on this section later__
 
 ## 8. Sync your master branch
 
